@@ -1,0 +1,29 @@
+<svg width="286" height="390" viewBox="0 0 286 390" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#342b48"/>
+      <stop offset=".66" stop-color="#0c1526"/>
+      <stop offset="1" stop-color="#1c1b24"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".8" cy=".2" r=".5">
+      <stop offset="0" stop-color="#58c3ff" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#58c3ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#382a36"/>
+      <stop offset=".56" stop-color="#bd9388"/>
+      <stop offset="1" stop-color="#6e4c4b"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11131b"/>
+      <stop offset=".55" stop-color="#2b3f61"/>
+      <stop offset="1" stop-color="#151524"/>
+    </linearGradient>
+  </defs>
+  <rect width="286" height="390" fill="url(#bg)"/>
+  <rect width="286" height="390" fill="url(#glow)"/>
+  <path d="M168 20a67 73 0 1 0 0 146 67 73 0 0 0 0-146z" fill="#15141c" opacity=".9"/>
+  <ellipse cx="170" cy="93" rx="59" ry="73" fill="url(#skin)"/>
+  <path d="M66 390v-60c0-50 40-90 90-90s90 40 90 90v60H66z" fill="url(#body)"/>
+  <rect width="286" height="390" fill="url(#bg)" opacity=".15"/>
+</svg>
